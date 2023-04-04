@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class="cart">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="cart-items">
+          <tr>
+            <td class="item-name">Item 1</td>
+            <td class="item-price">$10</td>
+            <td class="item-quantity"><button class="minus">-</button><span class="quantity">1</span><button class="plus">+</button></td>
+            <td class="item-total">$10</td>
+            <td><button class="delete">Delete</button></td>
+            <td><button class="like">like</button></td>
+          </tr>
+          <tr>
+            <td class="item-name">Item 2</td>
+            <td class="item-price">$20</td>
+            <td class="item-quantity"><button class="minus">-</button><span class="quantity">1</span><button class="plus">+</button></td>
+            <td class="item-total">$20</td>
+            <td><button class="delete">Delete</button></td>
+            <td><button class="like">like</button></td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Total:</td>
+            <td id="cart-total">$30</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tfoot>
+      </table>
+      
+      
+</body>
+<script src="main.js"></script>
+</html>
